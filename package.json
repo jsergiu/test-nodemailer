@@ -1,0 +1,14 @@
+{
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "First Last <first.last@example.com>",
+    "main": "mail.js",
+    "scripts": {
+      "start": "node main.js"
+    },
+    "dependencies": {
+      "nodemailer": "^6.8.0",
+      "express": "^4.16.1"
+    }
+  }
