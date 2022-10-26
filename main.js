@@ -16,16 +16,16 @@ app.get('/', (req, res) => {
         host: "smtp.mailtrap.io",
         port: 2525,
         auth: {
-            user: "3dc7e2effdc62a",
-            pass: "1d4f837324e37c"
+            user: "...",
+            pass: "..."
         },
         debug: true,
         logger: true
     });
 
     var mailOptions = {
-        from: 'sergiu.munteanu@live.com',
-        to: 'sergiu.munteanu@live.com',
+        from: 'john-doe@live.com',
+        to: 'john-doe@live.com',
         subject: 'Sending Email using Node.js',
         text: 'That was easy!'
     };
